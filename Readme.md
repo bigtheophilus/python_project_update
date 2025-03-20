@@ -50,6 +50,8 @@ selection                path                       priority        status
 
 ## output: python3.13.2  which shows the latest version of python is now installed and running on my OS
 
+# Alternative update python3 to point to python3.13
+
 "sudo rm /usr/bin/python3
 
 "sudo ln -s python3.13 /usr/bin/python3" 
