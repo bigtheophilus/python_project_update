@@ -28,3 +28,19 @@ python3 --version
 
  # output: 
 
+selection            path                    priority            status
+*0              /usr/bin/python3.13.2          2                   auto mode
+ 1             /usr/bin/python3.10.12          1                   manual mode
+ 2            /usr/bin/python3.3.13.2          2                   manual mode
+
+ press <enter> to keep the current choice[*]. or type selection number:
+
+ ## then i entered the selection number:0
+### by that i selcted to work with the python3.13.12 which is the latest verion.
+# ckecked the python3 version by: 
+"python3 --version"
+
+## output: python3.13.2  which shows the latest version of python is now installed and running on my OS
+
+"sudo rm /usr/bin/python3
+sudo ln -s python3.13 /usr/bin/python3
