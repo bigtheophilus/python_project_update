@@ -28,7 +28,7 @@ python3 --version
 
  # output: 
 
-selection            path                    priority            status
+selection                path                       priority        status
 *0              /usr/bin/python3.13.2          2                   auto mode
  1             /usr/bin/python3.10.12          1                   manual mode
  2            /usr/bin/python3.3.13.2          2                   manual mode
@@ -43,4 +43,6 @@ selection            path                    priority            status
 ## output: python3.13.2  which shows the latest version of python is now installed and running on my OS
 
 "sudo rm /usr/bin/python3
-sudo ln -s python3.13 /usr/bin/python3
+"sudo ln -s python3.13 /usr/bin/python3" 
+
+## Note: there were alot of errors or challenges during the execution of this project. refer to the images to see.
