@@ -1,6 +1,8 @@
 # This project was done to upgrade the version of python3 in my linux machine .
 
-### it is impotant to know that python is recognised in my linux machiene as Python3
+### it is impotant to know that python is recognised in my linux machiene as Python3. 
+
+## before now python and all it dependences and pckages have been installed but not up to date , hence this was done to update the version to the latest which as the project was python3.13.2
 
 ### first the version of python was checked with 
 
