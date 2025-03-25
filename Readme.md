@@ -75,6 +75,8 @@ selection                path                       priority        status
 
 # Action: i downloaded the jenkins file from the internet directly: (https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key) 
 
+# however, if you navigate to the path where the key is to run the wget command it will work as you will see in the attached immages
+
 ## opened the key with my vscod and copy to the file (jenkins-keyrings.asc) using the nano and then updated the directory
 
 # then i ran the "sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key."   then return ok
