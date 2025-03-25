@@ -57,3 +57,36 @@ selection                path                       priority        status
 "sudo ln -s python3.13 /usr/bin/python3" 
 
 ## Note: there were alot of errors or challenges during the execution of this project. refer to the images to see.
+
+
+
+
+
+
+# INSTALLING JENKINS IN UBUNTU ON THE COMMAND LAND WAS A BIG CHALLENGE 
+
+### when i run the "sudo apt-get update" to update my ubuntu repo
+
+### then "sudo apt install openjdk-11-jdk" to install the opene jDK though install succefully but the output says JRE not certified
+
+### with that error output, i couldnt download the jenkins key and could not dowload jenkins.
+
+### however, i noticed that the jenkins-keyring.asc file was resident on /usr/share/keyrings/ but empty of the key.
+
+# Action: i downloaded the jenkins file from the internet directly: (https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key) 
+
+## opened the key with my vscod and copy to the file (jenkins-keyrings.asc) using the nano and then updated the directory
+
+# then i ran the "sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key."   then return ok
+
+## Added the Jenkins repository: echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/" | sudo tee /etc/apt/sources.list.d/jenkins.list
+
+## update the repo and sudo apt install jenkins and then installed without error.
+
+### `sudo system start jenkins`
+
+### `sudo systemctl enable jenkins`
+
+## `curl localhost:8080`  and it returned working
+
+## `sudo systemctl status jenkins`
