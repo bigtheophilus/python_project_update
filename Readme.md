@@ -90,3 +90,6 @@ selection                path                       priority        status
 ## `curl localhost:8080`  and it returned working
 
 ## `sudo systemctl status jenkins`
+
+# the path to jenkins initialpassword is "/var/lib/jenkins/secrets/initialAdminPassword" 
+# To "cat" this path, "sudo" must be used otherwise you may get permission denied
